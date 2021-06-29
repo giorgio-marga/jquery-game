@@ -1,5 +1,10 @@
+.testclassforcss {
+  background: black;
+}
+
 body {
-  margin-top: 50px; }
+  margin-top: 50px;
+}
 
 .buttons-up button, .buttons-down button {
   border: 5px solid green;
@@ -8,29 +13,35 @@ body {
   padding: 15px 30px;
   margin: 5px 5px;
   font-size: 24px;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .buttons-container .buttons-up, .buttons-container .buttons-down {
   display: flex;
-  justify-content: center; }
-  .buttons-container .buttons-up button, .buttons-container .buttons-down button {
-    cursor: pointer; }
+  justify-content: center;
+}
+.buttons-container .buttons-up button, .buttons-container .buttons-down button {
+  cursor: pointer;
+}
 
 .nav {
   display: flex;
-  justify-content: center; }
-  .nav button {
-    border: 5px solid green;
-    border-radius: 12px;
-    background-color: white;
-    padding: 15px 30px;
-    margin: 5px 5px;
-    font-size: 24px;
-    font-weight: bold;
-    cursor: pointer; }
+  justify-content: center;
+}
+.nav button {
+  border: 5px solid green;
+  border-radius: 12px;
+  background-color: white;
+  padding: 15px 30px;
+  margin: 5px 5px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
 
 #countdown, #time {
-  padding-left: 10px; }
+  padding-left: 10px;
+}
 
 .timer, .countdown {
   font-family: sans-serif;
@@ -38,15 +49,21 @@ body {
   justify-content: center;
   color: white;
   font-size: 24px;
-  margin-left: 15px; }
+  margin-left: 15px;
+}
 
 .timer {
-  margin-bottom: 20px; }
-  .timer #time {
-    padding-right: 15px; }
+  margin-bottom: 20px;
+}
+.timer #time {
+  padding-right: 15px;
+}
 
 body {
   background-color: black;
   background-image: radial-gradient(white, rgba(255, 255, 255, 0.2) 2px, transparent 40px), radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px), radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px), radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent 30px);
   background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
-  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px; }
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+/*# sourceMappingURL=stylesheet.css.map */
